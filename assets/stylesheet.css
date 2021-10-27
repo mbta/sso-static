@@ -1,0 +1,90 @@
+.page-content {
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#logo {
+    width: 60%;
+    padding: 6%;
+    margin: 0px auto;
+}
+
+.container {
+    height: 600px;
+    border: 1px solid;
+    border-color: #F2F3F5;
+    border-top-color: #165C96;
+    border-top-width: 5px;
+    margin: 5% auto 0 auto;
+    padding: 6%;
+}
+
+body {
+    font-family: Helvetica Neue;
+}
+
+/* XS devices */
+@media (max-width: 544px) {
+    h1 {
+        font-size: 1.75rem;
+        line-height: 2.2313rem;
+    }
+    
+    .form-input-label {
+        font-size: 14px; 
+        color: #1C1E23; 
+        text-align: left; 
+        font-family: Inter UI; 
+        font-weight: 700; 
+        display: block;
+    }
+}
+
+/* SM devices */
+@media (min-width: 544px) {
+    h1 {
+        font-size: 1.75rem;
+        line-height: 2.2313rem;
+    }
+        
+    .form-input-label {
+        font-size: 14px; 
+        color: #1C1E23; 
+        text-align: left; 
+        font-weight: 700; 
+        display: block;
+    }
+}
+
+/* MD-LG devices */
+@media (min-width: 800px) {
+    h1 {
+        font-size: 2.5rem;
+        line-height: 3.1875rem;
+    }
+
+    .form-input-label {
+        font-size: 14px; 
+        color: #1C1E23; 
+        text-align: left; 
+        font-weight: 700; 
+        display: block;
+    }
+}
+
+/* XL devices */
+@media (min-width: 1344px) {
+    h1 {
+        font-size: 2.8125rem;
+        line-height: 3.5856rem;
+    }
+        
+    .form-input-label {
+        font-size: 14px; 
+        color: #1C1E23; 
+        text-align: left; 
+        font-weight: 700; 
+        display: block;
+    }
+}
