@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -12,14 +11,25 @@
         <div class="page-content">
             <img id="logo" src="assets/images/MBTA_logo_text.svg" alt="MBTA logo">
             <div class="container">
-                <h1>Sign in to your account</h1>
+                <h1>Sign In To Your Account</h1>
                 <div class="form-group">
-                    <label class="form-input-label" for="form-input">Username or email</label>
+                    <label class="form-input-label" for="form-input-email">Username or email</label>
                     <input 
-                        class="form-input" 
-                        id="form-input" 
-                        type="text" />
+                    name="form-input-email"
+                    class="form-input" 
+                    type="text" />
                 </div>
+                <div class="form-group">
+                    <label class="form-input-label" for="form-input-password">Password</label>
+                    <input 
+                    name="form-input-password"
+                    class="form-input" 
+                    type="text" />
+                </div>
+                <a href="https://www.mbta.com" class="forgot-password">Forgot Password?</a>
+                <button id="sign-in">Sign In</button>
+                <div>
+                   <span class="body-text">New user?</span> <a href="https://www.mbta.com">Register</a></div>
             </div>        
         </div>
     </body>
