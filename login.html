@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,22 +12,24 @@
             <img id="logo" src="assets/images/MBTA_logo_text.svg" alt="MBTA logo">
             <div class="container">
                 <h1>Sign In To Your Account</h1>
-                <div class="form-group">
-                    <label class="form-input-label" for="form-input-email">Username or email</label>
-                    <input 
-                    name="form-input-email"
-                    class="form-input" 
-                    type="text" />
-                </div>
-                <div class="form-group">
-                    <label class="form-input-label" for="form-input-password">Password</label>
-                    <input 
-                    name="form-input-password"
-                    class="form-input" 
-                    type="text" />
-                </div>
-                <a href="https://www.mbta.com" class="forgot-password">Forgot Password?</a>
-                <button id="sign-in">Sign In</button>
+                <form action="">
+                    <div class="form-group">
+                        <label class="form-input-label" for="form-input-email">Username or email</label>
+                        <input 
+                        id="form-input-email"
+                        class="form-input" 
+                        type="email" />
+                    </div>
+                    <div class="form-group">
+                        <label class="form-input-label" for="form-input-password">Password</label>
+                        <input 
+                        id="form-input-password"
+                        class="form-input" 
+                        type="password" />
+                    </div>
+                    <a href="https://www.mbta.com" class="forgot-password">Forgot Password?</a>
+                    <input type="submit" value="Sign In" id="sign-in"/>
+                </form>
                 <div>
                    <span class="body-text">New user?</span> <a href="https://www.mbta.com">Register</a></div>
             </div>        
