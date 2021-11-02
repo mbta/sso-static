@@ -88,6 +88,10 @@ h1 {
     padding: 1rem;
 }
 
+.submit-group {
+    padding-bottom: 0rem;
+}
+
 a {
     color: #165C96; 
     font-weight: 500;
