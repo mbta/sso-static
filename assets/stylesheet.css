@@ -82,6 +82,7 @@ h1 {
 
 .form-input:focus, .form-input:hover {
     border: 2px solid #165c96;
+    margin: -1px;
 }
 
 .form-group {
@@ -111,7 +112,11 @@ a:visited {
     float: right;
 }
 
-#sign-in {
+.back-link {
+    float: left;
+}
+
+#sign-in, #submit {
     display: block;
     border-radius: 3px;
     font-weight: 500; 
