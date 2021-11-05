@@ -21,8 +21,12 @@ body {
 
 h1 {
     font-size: 2.5rem;
-    margin-top: 1.075em;
+    margin-top: 1.075rem;
 	margin-bottom: 0.375em;
+}
+
+.page-content {
+    width: 40%;
 }
 
 /* smaller type for XS breakpoint */
