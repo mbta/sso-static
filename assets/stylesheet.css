@@ -25,6 +25,10 @@ h1 {
 	margin-bottom: 0.375em;
 }
 
+.page-content {
+    width: 60%;
+}
+
 /* smaller type for XS breakpoint */
 @media (max-width: 544px) {
     body { 
@@ -41,6 +45,13 @@ h1 {
 
     .page-content {
         width: 100%;
+    }
+}
+
+/* reduce content width for LG/XL breakpoint */
+@media (min-width: 1088px) {
+    .page-content {
+        width: 40%;
     }
 }
 
