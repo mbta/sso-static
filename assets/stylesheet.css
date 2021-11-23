@@ -112,6 +112,11 @@ h1 {
     margin: -1px;
 }
 
+.form-error {
+    border-color: #b3000f;
+    color: #b3000f;
+}
+
 .form-input:focus, .form-input:hover {
     border: 2px solid #165c96;
     margin: -1px;
