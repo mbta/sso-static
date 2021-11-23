@@ -112,9 +112,18 @@ h1 {
     margin: -1px;
 }
 
-.form-error {
-    border-color: #b3000f;
+.form-error-message {
+    border: 2px solid #b3000f;
+    border-radius: 4px;
     color: #b3000f;
+    background: #F2DEDE;
+    padding: 12px;
+}
+
+.error-close {
+    width: 1rem;
+    color: #b3000f;
+    float: right;
 }
 
 .form-input:focus, .form-input:hover {
