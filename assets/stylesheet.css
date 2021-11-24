@@ -1,4 +1,5 @@
 @import url('https://rsms.me/inter/inter.css'); 
+
 html { 
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -100,9 +101,31 @@ h1 {
     padding: 12px;
 }
 
+.label-error {
+    color: #b3000f; 
+}
+
+.input-error {
+    border: 2px solid #b3000f;
+    margin: -1px;
+}
+
+.form-error-container {
+    border: 2px solid #b3000f;
+    border-radius: 4px;
+    color: #b3000f;
+    background: #F2DEDE;
+    padding: 12px;
+    text-align: left;
+}
+
 .form-input:focus, .form-input:hover {
     border: 2px solid #165c96;
     margin: -1px;
+}
+
+.input-error:focus, .input-error:hover {
+    border: 2px solid #b3000f;
 }
 
 .form-group {
