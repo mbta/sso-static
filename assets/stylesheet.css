@@ -119,12 +119,6 @@ h1 {
     text-align: left;
 }
 
-.error-close {
-    width: 1rem;
-    color: #b3000f;
-    float: right;
-}
-
 .form-input:focus, .form-input:hover {
     border: 2px solid #165c96;
     margin: -1px;
