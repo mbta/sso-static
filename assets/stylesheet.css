@@ -119,13 +119,33 @@ h1 {
     margin: -1px;
 }
 
-.form-error-container {
-    border: 2px solid #b3000f;
+.form-message-container {
+    border: 2px solid;
     border-radius: 4px;
-    color: #b3000f;
-    background: #F2DEDE;
     padding: 12px;
     text-align: left;
+}
+
+.form-error {
+    border-color: #b3000f;
+    color: #b3000f;
+    background: #F2DEDE;
+}
+
+.form-success {
+    border-color: #145A06;
+    color: #145A06;
+    background: #DFF0D8;
+}
+
+.form-warning {
+    border-color: #FFDD00;
+    background: rgb(255, 247, 191);
+}
+
+.form-info {
+    border-color: #D8DFE6;
+    background: rgb(242, 243, 245);
 }
 
 .form-input:focus, .form-input:hover {
