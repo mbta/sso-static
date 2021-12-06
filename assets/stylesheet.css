@@ -224,7 +224,7 @@ a:visited {
     border-radius: 3px;
     font: inherit;
     font-weight: 500; 
-    border: 1px solid #165c96;
+    border: none;
     color: #165C96; 
     text-align: center; 
     font-weight: 500;
@@ -239,6 +239,10 @@ a:visited {
     display: inline-block;
     margin: 1rem;
     padding: 0rem; 
+}
+
+#cancel {
+    border: 1px solid #165c96;
 }
 
 #sign-out:hover,
