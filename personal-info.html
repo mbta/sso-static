@@ -1,0 +1,88 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Personal Info</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/stylesheet.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    </head>
+    <body>
+        <div class="header-navbar">
+            <div class="nav-logo-group">
+                <i class="fas fa-bars fa-lg"></i>
+                <div class="svg-container" aria-hidden="true">
+                    <a class="navbar-logo" href="https://www.mbta.com">
+                        <span class="c-svg__mbta-logo"><svg width=200px height=auto xmlns="http://www.w3.org/2000/svg" role="img"><path fill="#FFFFFF" d="m18 34.4a16.4 16.4 0 1 1 16.4-16.4 16.34585 16.34585 0 0 1 -16.4 16.4zm0-34.4a18 18 0 1 0 18 18 18.05292 18.05292 0 0 0 -18-18"></path>    <path fill="#FFFFFF" d="m6.6 15.7h8.6v14h5.6v-14h8.6v-5.7h-22.8z"></path>    <text fill="#FFFFFF" font-family="Helvetica-Bold, Helvetica" font-size="13.38351" font-weight="700" transform="translate(41.6001 14.41357)">        Massachusetts Bay<tspan x="0" y="16.06006" letter-spacing="-.05469em">T</tspan><tspan x="7.44336" y="16.06006" letter-spacing="-.00004em">ransportation</tspan><tspan x="93.69775" y="16.06006" letter-spacing="-.03663em"></tspan> <tspan x="96.92627" y="16.06006">Authority</tspan>    </text></svg></span>        
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="navbar-items">
+                    <button id="sign-out">Sign Out</button>
+                    <span id="user-name">John Doe</span>
+                </div>
+            </div>
+        </div>
+        <div class="page-container">
+            <div class="tab-container">
+                <div class="tab first-tab">
+                    <span>Personal info</span>
+                </div>
+                <div class="tab">
+                    <span>Account security</span>
+                </div>
+                <div class="tab last-tab">
+                    <span>Applications</span>
+                </div>
+            </div>
+            <div class="personal-info-page-content">
+                <div class="header-content">
+                    <h1>Personal Info</h1>
+                    <span>Manage this basic information: your first name, last name, and email</span>
+                </div>
+                <div class="main-content">
+                    <div class="page-content">
+                        <form action="">
+                            <div class="form-group">
+                                <label class="form-input-label" for="form-input-username">Username</label>
+                                <input 
+                                id="form-input-username"
+                                class="form-input" 
+                                type="username" 
+                                value="Username"
+                                readonly />
+                            </div>
+                            <div class="form-group">
+                                <label class="form-input-label" for="form-input-email">Email</label>
+                                <input 
+                                id="form-input-email"
+                                class="form-input" 
+                                type="email" />
+                            </div>
+                            <div class="form-group">
+                                <label class="form-input-label" for="form-input-firstname">First name</label>
+                                <input 
+                                id="form-input-firstname"
+                                class="form-input" 
+                                type="firstname" />
+                            </div>
+                            <div class="form-group">
+                                <label class="form-input-label" for="form-input-lastname">Last name</label>
+                                <input 
+                                id="form-input-lastname"
+                                class="form-input" 
+                                type="lastname" />
+                            </div>
+                            <div class="button-group">
+                                <input type="submit" value="Save" id="save"/>
+                                <input type="submit" value="Cancel" id="cancel"/>
+                            </div>
+                        </form>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
