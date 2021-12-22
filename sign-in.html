@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Personal Info</title>
+        <title>Signing In</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/stylesheet.css">
@@ -42,47 +42,30 @@
             </div>
             <div class="header-container">
                 <div class="header-content">
-                    <h1>Personal Info</h1>
-                    <span>Manage this basic information: your first name, last name, and email</span>
+                    <h1>Signing in</h1>
+                    <span>Configure ways to sign in</span>
                 </div>
-                <div class="main-content">
-                    <div class="page-content">
-                        <form action="">
-                            <div class="form-group">
-                                <label class="form-input-label" for="form-input-username">Username</label>
-                                <input 
-                                id="form-input-username"
-                                class="form-input" 
-                                type="username" 
-                                value="Username"
-                                readonly />
-                            </div>
-                            <div class="form-group">
-                                <label class="form-input-label" for="form-input-email">Email</label>
-                                <input 
-                                id="form-input-email"
-                                class="form-input" 
-                                type="email" />
-                            </div>
-                            <div class="form-group">
-                                <label class="form-input-label" for="form-input-firstname">First name</label>
-                                <input 
-                                id="form-input-firstname"
-                                class="form-input" 
-                                type="firstname" />
-                            </div>
-                            <div class="form-group">
-                                <label class="form-input-label" for="form-input-lastname">Last name</label>
-                                <input 
-                                id="form-input-lastname"
-                                class="form-input" 
-                                type="lastname" />
-                            </div>
-                            <div class="button-group">
-                                <input type="submit" value="Save" id="save" class="button button-wide"/>
-                                <input type="submit" value="Cancel" id="cancel"/>
-                            </div>
-                        </form>                    
+                <div class="primary-container">
+                    <h2>Basic Authentication</h2>
+                    <div class="sub-container">
+                        <h3>Password</h3>
+                        <p>Log in by entering your password</p>
+                        <hr>
+                        <div class="sub-container-content">
+                            <p>My Password</p>
+                            <p><strong>Created:</strong> October 15, 2021, 8:02 AM</p>
+                            <button id="update" class="button" >Update</button>
+                        </div>
+                    </div>
+                    <h2>Two-Factor Authentication</h2>
+                    <div class="sub-container">
+                        <a href="https://www.mbta.com" class="set-up-link">Set up authenticator application</a>
+                        <h3>Authenticator Application</h3>
+                        <p>Enter a verification code from authenticator application</p>
+                        <hr>
+                        <div class="sub-container-content">
+                            <p>Authenticator application is not set up</p>
+                        </div>
                     </div>
                 </div>
             </div>
