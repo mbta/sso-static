@@ -121,7 +121,7 @@ h3 {
     text-align: center;
 }
 
-#logo {
+#logo, #qr-code {
     width: 60%;
     padding: 6%;
     margin: 0px auto;
@@ -407,4 +407,16 @@ a:visited {
 .set-up-link {
     float: right;
     margin: 1rem 0rem;
+
+.instructions-container {
+    text-align: left;    
+}
+
+.user-name-container {
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.fa-share-square {
+    margin: 1rem;
 }
