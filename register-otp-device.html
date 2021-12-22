@@ -1,0 +1,58 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Register OTP Device</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/stylesheet.css">
+    </head>
+    <body>
+        <div class="page-content">
+            <img id="logo" src="assets/images/MBTA_logo_text.svg" alt="MBTA logo">
+            <div class="container">
+                <h1>Mobile Authenticator Setup</h1>
+                <form action="">
+                    <div class="form-group">
+                        <div class="form-message-container form-warning" role="alert">
+                            <strong class="form-message-summary">Warning!</strong>
+                            <ul>
+                                <li class="form-message-text">You need to set up Mobile Authenticator to activate your device.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="instructions-container">
+                        <ol>
+                            <li>Install one of the following applications on your mobile device:
+                                <p><strong>FreeOTP</strong></p>
+                                <p><strong>Google Authenticator</strong></p>
+                            </li>
+                            <li>Open the application and scan the barcode</li>
+                            <img id="qr-code" src="assets/images/sample_qr_code.svg" alt="QR code to scan">
+                            <p><a href="https://www.mbta.com">Unable to scan?</a></p>
+                            <li>Enter the one-time code provided by application and click Submit to finish the setup</li>
+                            <p>Provide a Device Name to help you manage your OTP devices</p>
+                        </ol>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-input-label" for="form-input-otp">One-time code</label>
+                        <input 
+                        id="form-input-otp"
+                        class="form-input" 
+                        type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label class="form-input-label" for="form-input-device-name">Device name</label>
+                        <input 
+                        id="form-input-device-name"
+                        class="form-input" 
+                        type="text" />
+                    </div>
+                    <div class="form-group submit-group">
+                        <input type="submit" value="Submit" id="submit"/>
+                    </div>
+                </form>
+            </div>        
+        </div>
+    </body>
+</html>

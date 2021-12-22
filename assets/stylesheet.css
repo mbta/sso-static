@@ -90,7 +90,7 @@ h1 {
     text-align: center;
 }
 
-#logo {
+#logo, #qr-code {
     width: 60%;
     padding: 6%;
     margin: 0px auto;
@@ -352,4 +352,17 @@ a:visited {
 .tab:active,
 .tab:focus {
     background-color: #CEE0F4;
+}
+
+.instructions-container {
+    text-align: left;    
+}
+
+.user-name-container {
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.fa-share-square {
+    margin: 1rem;
 }
