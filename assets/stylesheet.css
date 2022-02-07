@@ -224,7 +224,8 @@ a:visited {
 }
 
 .back-link {
-    float: left;
+    display: block;
+    text-align: left;
 }
 
 .button {
