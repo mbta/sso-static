@@ -224,7 +224,8 @@ a:visited {
 }
 
 .back-link {
-    float: left;
+    display: block;
+    text-align: left;
 }
 
 .button {
@@ -240,7 +241,8 @@ a:visited {
 
 .button:hover,
 .button:focus {
-    background-color: #0B2F4C; 
+    background-color: #0B2F4C;
+    cursor: pointer; 
 }
 
 .button-wide {
@@ -280,6 +282,7 @@ a:visited {
 #cancel:hover,
 #cancel:focus {
     background-color: #CEE0F4; 
+    cursor: pointer;
 }
 
 .header-navbar {
