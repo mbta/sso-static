@@ -200,6 +200,10 @@ h3 {
     padding: 1rem;
 }
 
+.form {
+    margin: 1em auto;
+}
+
 .submit-group {
     padding-bottom: 0rem;
 }
@@ -424,3 +428,4 @@ a:visited {
 .fa-share-square {
     margin: 1rem;
 }
+
